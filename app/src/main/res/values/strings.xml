@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">IDEAL</string>
+    <string name="version">version 1.0</string>
+
+    <string name="about_app">About the app</string>
+    <string name="about_message">This app is created as a tool for a research conducted by the Computer Science department at Franklin &amp; Marshall College.</string>
+
+    <string name="action_predict">Predict</string>
+    <string name="action_clear">Clear Data</string>
+    <string name="action_settings">App Settings</string>
+    <string name="action_about">About Us</string>
+
+    <string name="vpn_on">ON</string>
+    <string name="vpn_off">OFF</string>
+    <string name="vpn_running_broadcast_intent">VPN Running</string>
+
+    <string name="delete_package_title">Delete Application Data</string>
+    <string name="delete_package_message">Are you sure you want to delete all the data that IDEAL has recorded for %s? This action cannot be undone.</string>
+
+    <string name="update_filter_keywords">Update Filter Keywords</string>
+    <string name="update_filter_keywords_title">Update Filter Keywords</string>
+    <string name="update_filter_keywords_message">In the following dialog box, choose the file that contains all keywords that IDEAL should look for in the network traffic.</string>
+
+    <string name="certificate_root_store">Cannot inspect encrypted traffic</string>
+    <string name="certificate_root_store_msg">In order for IDEAL to inspect encrypted traffic, it needs to add a certificate to your device\'s certificate store. This requires that you enter your device\'s PIN and click the \"OK\" button when asked to name the certificate.</string>
+
+    <!-- DataLeak -->
+    <string name="type_label">Type</string>
+    <string name="time_label">Time</string>
+    <string name="classification_label">URL Classification</string>
+    <string name="destination_label">Destination Domain</string>
+    <string name="content_label">Content</string>
+
+    <!-- PredictedLeak -->
+    <string name="ptime_label">Timestamp</string>
+    <string name="papp_label">App Name</string>
+    <string name="pcategory_label">Leak Category</string>
+    <string name="ptype_label">Leak Type</string>
+
+    <string name="leak_singular">leak</string>
+    <string name="leak_plural">leaks</string>
+    <string name="category_ignored">no notifications</string>
+
+    <!-- Preferences -->
+    <string name="pref_leak_display_order_key">pref_leak_display_order</string>
+    <string name="pref_leak_display_order_title">Leak Display Order</string>
+    <string name="pref_leak_display_order_summary">The order to display application leakages.</string>
+    <string name="pref_leak_display_order_dialog_title">Order leaks:</string>
+
+    <string name="pref_graph_domain_size_key">pref_graph_domain_size</string>
+    <string name="pref_graph_domain_size_title">Graph Domain Size</string>
+    <string name="pref_graph_domain_size_summary">The size of the leak report graph domain.</string>
+    <string name="pref_graph_domain_size_dialog_title">Domain size:</string>
+
+    <string name="activity">Activity</string>
+    <string name="probability">Probability</string>
+    <string name="downstairs">Downstairs</string>
+    <string name="jogging">Jogging</string>
+    <string name="sitting">Sitting</string>
+    <string name="standing">Standing</string>
+    <string name="upstairs">Upstairs</string>
+    <string name="walking">Walking</string>
+
+</resources>
